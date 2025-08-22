@@ -1,8 +1,7 @@
 flask==3.0.3
 pillow==10.4.0
-torch==2.3.1
-torchvision==0.18.1
-torchaudio==2.3.1
+torch==2.3.1+cpu -f https://download.pytorch.org/whl/cpu
+torchvision==0.18.1+cpu -f https://download.pytorch.org/whl/cpu
+torchaudio==2.3.1+cpu -f https://download.pytorch.org/whl/cpu
 transformers==4.44.0
-diffusers==0.26.3
-ftfy==6.1.1 v
+gunicorn==23.0.0
