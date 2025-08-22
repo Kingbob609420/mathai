@@ -3,8 +3,8 @@ pillow==10.4.0
 transformers==4.44.0
 gunicorn==23.0.0
 
-# CPU-only PyTorch stack
+# Force CPU-only PyTorch wheels from the official index
 --extra-index-url https://download.pytorch.org/whl/cpu
-torch==2.7.0
-torchvision==0.22.0
-torchaudio==2.7.0
+torch==2.5.1
+torchvision==0.20.1
+torchaudio==2.5.1
